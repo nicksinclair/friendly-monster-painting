@@ -1,0 +1,21 @@
+{
+  "name": "friendly-monster-painting",
+  "private": true,
+  "version": "0.0.0",
+  "author": {
+    "name": "Nick Sinclair",
+    "email": "nick.sinclair98@gmail.com",
+    "url": "https://nicksinclair.github.io"
+  },
+  "repository": {
+    "url": "https://github.com/nicksinclair/friendly-monster-painting.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.8.0"
+  }
+}
