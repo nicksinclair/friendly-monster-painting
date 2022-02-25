@@ -13,6 +13,6 @@ The primary goals here are to:
 3. Make this site responsive
 4. Make this site using vanilla JavaScript
 
-This project was scaffolded using [Vite])(https://vitejs.dev/)
+This project was scaffolded using [Vite](https://vitejs.dev/)
 
 If you or a friend you know in the Atlanta area needs painting done, please reach out to [Friendly Monster Painting](info@friendlymonsterpainting.com) for an estimate!
