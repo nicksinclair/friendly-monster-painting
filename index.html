@@ -2,12 +2,93 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Friendly Monster Painting</title>
   </head>
+
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <nav id="navbar">
+        <div id="logo">Friendly Monster Painting</div>
+      </nav>
+      <section id="services">Services</section>
+      <section id="testimonials">Testimonials</section>
+      <section id="contact">
+        <h2>Contact us for an estimate</h2>
+        <form id="contact-form">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="fname" />
+          <br />
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lname" />
+          <br />
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" />
+          <br />
+
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" />
+          <br />
+
+          <label for="address">Address</label>
+          <input type="text" id="address" name="address" />
+          <br />
+
+          <label for="city">City</label>
+          <input type="text" id="city" name="city" />
+          <br />
+
+          <label for="zip-code">Zip Code</label>
+          <input type="text" id="zip-code" name="zip-code" />
+          <br />
+
+          <label for="note">Note</label>
+          <textarea id="note" name="note" rows="4" cols="40"> </textarea>
+          <br />
+
+          <span>Service Type</span>
+          <div id="service-type">
+            <div class="checkbox-item">
+              <input
+                type="checkbox"
+                id="interior"
+                name="interior"
+                value="Interior"
+              />
+              <label for="interior">Interior</label>
+            </div>
+
+            <br />
+
+            <div class="checkbox-item">
+              <input
+                type="checkbox"
+                id="exterior"
+                name="exterior"
+                value="Exterior"
+              />
+              <label for="exterior">Exterior</label>
+            </div>
+          </div>
+
+          <br />
+
+          <label for="submit">Submit</label>
+          <input type="submit" id="submit" name="submit" />
+          <br />
+        </form>
+      </section>
+
+      <footer>About</footer>
+    </div>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
