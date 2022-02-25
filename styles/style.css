@@ -9,6 +9,9 @@
 }
 
 #app {
+  display: flex;
+  flex-direction: column;
+
   font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -38,10 +41,23 @@
   color: var(--text-light);
 }
 
+#header-img {
+  max-width: 100%;
+  min-height: 600px;
+  max-height: 600px;
+
+  margin-top: 72px;
+
+  background-image: url(../img/paint_01.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 #services {
   height: 600px;
 
-  margin-top: 72px;
+  padding: 3rem;
 
   background-color: var(--tertiary);
 }
@@ -49,11 +65,13 @@
 #testimonials {
   height: 600px;
 
+  padding: 3rem;
+
   background-color: var(--secondary);
 }
 
 #contact {
-  padding: 3rem 0px;
+  padding: 3rem;
 
   text-align: center;
 
@@ -66,7 +84,7 @@
   flex-direction: column;
 
   margin: auto;
-  width: 50%;
+  width: 100%;
   max-width: 40ch;
 
   align-items: flex-start;
@@ -85,6 +103,7 @@
   width: 100%;
   min-width: 100%;
   max-width: 100%;
+  min-height: 1.5rem;
 
   background-color: var(--text-light);
   border-radius: 0.5rem;
@@ -130,8 +149,27 @@
 }
 
 footer {
-  height: 300px;
+  display: flex;
+  flex-direction: row;
+
+  align-items: flex-start;
+
+  /* height: 300px; */
+
+  padding: 3rem;
 
   color: var(--text-light);
   background-color: var(--primary);
+}
+
+footer #about {
+  flex-grow: 1;
+
+  max-width: 40ch;
+
+  text-align: left;
+}
+
+footer #credit {
+  flex-grow: 1;
 }
